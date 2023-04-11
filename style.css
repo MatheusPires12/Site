@@ -1,0 +1,195 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;;
+}
+
+.container{
+    background: rgba(230, 230, 230, 0.603);
+}
+
+.second-container{
+    border: 5px solid white;
+    border-top:0;
+    margin: 0 auto;
+    min-height:100vh;
+    background-color: white;
+    width: 128vh;
+    align-items: center;
+}
+
+.header{
+    background-color: darkblue;
+    width: 126.5vh;
+    min-height: 30px;
+    border-bottom: 2px solid rgb(216, 130, 99);
+    border-radius: 5px;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.p-header-left{
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+    margin-left: 5px;
+    font-size: 15px;
+}
+
+.p-header-right{
+    color: white;
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+.section{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-areas: 
+    "content-esq contert-dir";
+}
+.content-esq{
+    grid-area: content-esq;
+   /* border: 1px green solid;*/
+   background-color: rgb(218, 218, 218);
+   min-height: 100vh;
+}
+
+
+figure{
+    background-color: white;
+    margin: 0 auto;
+    width: 100%;
+    border: 2px solid rgba(228, 227, 227, 0.445);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+.logo-content-esq{
+    width: 30%;
+    height: 30%;
+}
+
+.botao1{
+    background-color: white;
+    margin: 20px 20px 10px 20px;
+    border-radius: 3px;
+    
+}
+.content-esq-botao1{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.link-esq{
+    text-decoration: none;
+    color: black;
+}
+.calculadora-lista-content-esq{
+    width: 20px;
+    margin-right: 10px;
+}
+
+.botao2{
+    background-color: white;
+    margin: 10px 20px;
+    border-radius: 3px;
+}
+.forca-lista-content-esq{
+    width: 20px ;
+    margin-right: 10px;
+}
+
+.content-dir{
+    grid-area: contert-dir;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.text-top-content-dir{
+    padding: 10px;
+    background-color:rgb(218, 218, 218);
+    width: 100%;
+    min-height: 70px;
+}
+
+.color-darkblue{
+    color: rgb(0, 0, 99);
+}
+
+.color-yellow{
+    color: rgb(188, 185, 3);
+    font-size: 15px;
+}
+
+.small-text{
+    font-size: 13px;
+}
+
+.linha-top-content-dir{
+    margin-top: 10px;
+}
+.second-text-top-content-dir{
+    display: flex;
+    align-items: center;
+    margin: 10px 0 5px 10px;
+}
+
+.avatar-title-professores{
+    width: 25px;
+    margin-right: 5px;
+}
+.text-second-top-content-dir{
+    text-decoration: underline black;
+}
+
+.img{
+    margin: 5px;
+    width: 100px;
+    height: 120px;
+}
+.content-principal-dir{
+    margin-top: 10px ;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+}
+.card{
+    margin-left: 10px;
+    border: 1px black solid;
+    width: 100vh;
+    height: 150px;
+    display: flex;
+    flex-direction: row ;
+    align-items: center;
+}
+.title-professores{
+    margin-right: 10px;
+}
+.text-professores{
+    font-size: 13px;
+    text-align: justify;
+    margin-right: 5px;
+}
+details::before{
+    width: 100%;
+}
+.footer{
+    border-top: 3px solid  rgb(216, 130, 99) ;
+    border-radius: 5px;
+    min-height: 25px;
+    background-color: darkblue;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 5px;
+}
